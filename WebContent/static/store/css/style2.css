@@ -1,0 +1,42 @@
+.aa,.ss{padding: 0;margin: 0; list-style: none;}
+.adver{margin: 0 auto; width: 950px; overflow: hidden; height: 454px; position: relative; }
+.aa{position: absolute; bottom:10px; z-index: 100; width: 100%; text-align: center;}
+.aa li{display: inline-block; font-size: 10px; line-height: 20px; font-family: "微软雅黑"; margin: 0 1px; width: 20px; height: 20px; border-radius: 50%; background: #333333; text-align: center; color: #ffffff;cursor: pointer;}
+.arrowLeft{
+    position: absolute;
+    width: 30px;
+    background:red;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    top:200px;
+    z-index: 150;
+    font-family: "微软雅黑";
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+}
+
+.arrowRight{
+    position: absolute;
+    width: 30px;
+    background:red;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    top:200px;
+    z-index: 150;
+    font-family: "微软雅黑";
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+}
+
+
+.arrowLeft{left: 10px;}
+.arrowRight{right: 10px;}
+.tt:nth-of-type(1){
+    background: orange;
+}
